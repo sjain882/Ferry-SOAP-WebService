@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-cl</actionName>
+            <displayName>cl</displayName>
+            <goals>
+                <goal>clean:clean</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-ga</actionName>
+            <displayName>ga</displayName>
+            <goals>
+                <goal>generate-sources</goal>
+            </goals>
+        </action>
+    </actions>
